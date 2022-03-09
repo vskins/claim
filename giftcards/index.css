@@ -1,0 +1,120 @@
+.modal-title {
+    text-align: center;
+}
+
+.modal-description {
+    margin-top: 10px;
+}
+
+.modal-description2 {
+    margin-top: 10px;
+    display: none;
+}
+
+.hide-element {
+    visibility: hidden;
+}
+
+.show-element {
+    display: block;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+}
+.loading-modal{
+    height: 80px;
+    margin: -20px 0 -90px 20px;
+  }
+
+.originalprice {
+    display: block;
+}
+
+.finalprice {
+    display: none;
+}
+
+.btn-placement {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-text {
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    margin: 5px 0 0 2px;
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.product-block__container {
+    border-radius: 20px;
+}
+
+.not-available {
+    font-size: .75rem;
+    font-weight: 400;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 1.5rem;
+}
+
+.no-click {
+    pointer-events: none;
+}
+
+#user-given-code {
+	display: table;
+	width: 80%;
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px 30px;
+	position: relative;
+	background: rgba(231, 176, 44, 0.76);
+	color: #fff;
+	font-size: 1.8em;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	font-weight: 700;
+	font-family: 'Source Sans Pro', sans-serif
+}
+
+
+@media screen and (max-width:445px) {
+
+	#user-given-code {
+		left: 0;
+		width: 100%;
+		font-size: 1.4em
+	}
+}
+
+#retailbox {
+    min-height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+
+iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
